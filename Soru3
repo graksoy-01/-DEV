@@ -1,0 +1,8 @@
+toplam = 0
+dizi = []
+
+for i in range (1001):
+    a = i**i
+    toplam += a
+
+print (toplam%10000000000)
